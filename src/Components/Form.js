@@ -14,14 +14,15 @@ export default function Form( )
   {
     event.preventDefault();
     let x=event.target;
-    setId(id+1);
+    
     let newTodoItem={
       id:id,
       title:x[0].value,
      
     }
     dispatch(addItem(newTodoItem))
-    console.log(newTodoItem )
+    setId(id+1);
+ 
     
    
 }
@@ -39,10 +40,11 @@ export default function Form( )
           Add 
         </button>
         <div>
-     <TodoList/>
+    
         </div>
       
       </form>
+      <TodoList/>
 
     </>
   );

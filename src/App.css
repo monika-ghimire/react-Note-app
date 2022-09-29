@@ -61,28 +61,29 @@
 }
 
 .buttom-compelete,
-.button-delete,
-.button-edit{
+.button-delete{
   border: none;
   outline: none;
   cursor: pointer;
   background-color: transparent;
   font-size: 28px;
   border-radius: 50%;
+
 }
 .buttom-compelete
 {
-  color:#ff6c6c;
-  margin-left:10px;
+  color:lightseagreen;
+  margin-left:200px;
+  position: absolute;
+ 
 }
-.button-edit
-{
-  color:#e2d029;
-  margin-left:10px;
-}
+
 .button-delete
 {
-  color:lightseagreen;
+  color:#ff6c6c;
+  margin-left:240px;
+  position: absolute;
+
 }
 .compelete
 {
@@ -92,8 +93,8 @@
   opacity: 0.6;
 }
 .list-item{
+  position: relative;
   width:350px;
-  
   color: #ccc;
   font-size: 20px;
   padding-left: 10px;
